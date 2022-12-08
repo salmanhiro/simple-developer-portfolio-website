@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  githubUsername: "salmanhiro",
+  name: "Salman Al Farisi",
+  designation: "Chief of Data at Allure AI",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "salmanhiro10@gmail.com",
+  linkedin: "https://www.linkedin.com/in/salman-farisi/",
+  address: "Jakarta, Indonesia",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -50,22 +50,22 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm a technical Co-founder and Chief Data Officer with Expertise in AI and Machine Learning Software Development and MLOps",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      "As a Chief Data Officer with expertise in machine learning software development and MLOps, I have spent my career driving innovation in the field of data science. I am passionate about open source development and strive to continuously improve and contribute to the open source community.",
+      "In my current role at Allure AI, I lead a team of data scientists and machine learning engineers to develop and deploy machine learning models that drive business value. I also oversee the implementation of MLOps best practices to ensure the efficient and effective deployment of our models.",
+      "My goal is to continue pushing the boundaries of what is possible with data and machine learning, and to help the organizaton to achieve its business goals through the strategic use of data and technology."
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "Allure AI",
+    currentProjectUrl: "https://allure.id/",
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "mroads",
-      year: "2021",
-      companyLink: "https://mroads.com",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      title: "Chief of Data",
+      company: "Allure AI",
+      year: "Dec 2020 - Present",
+      companyLink: "https://allure.id",
+      desc: "Led the data science team to develop and deploy machine learning models that drive business value. Oversaw the implementation of MLOps best practices to ensure the efficient and effective deployment of our models.",
     },
     {
       title: "Founder and Developer",
@@ -106,11 +106,9 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
+    twitter: "https://twitter.com/Resnet501",
+    linkedin: "https://www.linkedin.com/in/salman-farisi/",
     github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
   },
 };
 

@@ -46,17 +46,17 @@ export default function AboutMe() {
             </div>
             <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Job Opportunities
+                Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
+                For partnership, IT consultancy and opportunities, 
                 check my{" "}
                 <a
-                  href={userData.resumeUrl}
+                  href={userData.linkedin}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  CV
+                  LinkedIn
                 </a>{" "}
                 and I'd love to work for you.
               </p>
@@ -66,18 +66,7 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.facebook}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Facebook
-                  </div>
-                </a>
-              </div>
+
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
@@ -114,18 +103,7 @@ export default function AboutMe() {
                   </div>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.instagram}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
-                    Instagram
-                  </div>
-                </a>
-              </div>
+
             </div>
           </div>
           {/* Text area */}
@@ -138,58 +116,100 @@ export default function AboutMe() {
                 {desc}
               </p>
             ))}
-
+            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50 mt-4">
+              Skill and Domain Expertise
+            </h1>
+            <div className="flex flex-row flex-wrap mt-8 mb-8 text-lg text-gray-500 mt-4 dark:text-gray-300">
+            Computer Vision, Machine Learning, Deep Learning, Natural Language Processing, Data Science, Project Management, Data Engineering, Data Security, DevOps, API, Backend Software Development, Augmented Reality,
+            Research, Statistics, Mathematical Modelling, Mathematical Simulation and Computation. 
+            </div>
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/640px-PyTorch_logo_icon.svg.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://www.pngfind.com/pngs/m/597-5975946_microsoft-azure-logo-svg-hd-png-download.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://www.ucloudstore.com/wp-content/uploads/2021/09/gcp-02.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://devclass.com/wp-content/uploads/2018/10/MLflow-logo.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://repository-images.githubusercontent.com/154739597/90607180-e100-11e9-8642-c65819bec604"
+                className="h-10 w-10 mx-4 my-4"
+              />
+                            <img
+                src="https://e7.pngegg.com/pngimages/989/396/png-clipart-apache-spark-hadoop-yarn-big-data-apache-hadoop-apache-http-server-data-text-orange.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+                <img
+                src="https://www.saashub.com/images/app/service_logos/93/65e31dd03ee5/large.png?1571723209"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://seeklogo.com/images/F/fastapi-logo-541BAA112F-seeklogo.com.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://cwiki.apache.org/confluence/download/attachments/145723561/airflow_transparent.png?api=v2"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://beam.apache.org/images/logos/full-color/name-right/beam-logo-full-color-name-right-1000.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png"
+                className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                className="h-20 w-20 mx-4 my-4"
+                src="https://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png"
+                className="h-10 w-10 mx-4 my-4"
               />
             </div>
           </div>
