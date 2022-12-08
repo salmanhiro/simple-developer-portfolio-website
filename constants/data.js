@@ -108,7 +108,7 @@ const userData = {
   socialLinks: {
     twitter: "https://twitter.com/Resnet501",
     linkedin: "https://www.linkedin.com/in/salman-farisi/",
-    github: "https://github.com/manuarora700",
+    github: "https://github.com/salmanhiro",
   },
 };
 
