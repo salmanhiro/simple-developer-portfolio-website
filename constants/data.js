@@ -93,7 +93,7 @@ const userData = {
       company: "ComLabs, Bandung Insitute of Technology",
       year: "January 2020 - July 2020",
       companyLink: "https://lapangbola.com/",
-      desc: "",
+      desc: "Maintaining and managing the technical infrastructure. Tasks such as setting up and configuring servers, networking equipment, and other hardware and software systems. ",
     },
     {
       title: "Match Statistics Analyst (part-time)",
@@ -107,7 +107,7 @@ const userData = {
       company: "Chatbiz.id (now merged to Orderdulu)",
       year: "June 2018 - August 2018",
       companyLink: "https://orderdulu.com/",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
+      desc: "Designing and implementing a data pipeline for a statistics dashboard. Applying machine learning techniques for future prediction. ",
     },
   ],
   resumeUrl:
