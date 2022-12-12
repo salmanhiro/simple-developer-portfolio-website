@@ -5,14 +5,14 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-5xl md:text-4xl font-bold py-20 text-center md:text-left">
           About Me.
         </h1>
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            className="leading-loose text-2xl md:text-2xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}. Currently working on{" "}
@@ -41,7 +41,7 @@ export default function AboutMe() {
                 >
                   mail
                 </a>{" "}
-                and I'll get back. I swear.
+                and I'll get back.
               </p>
             </div>
             <div className="mt-8">
@@ -58,7 +58,7 @@ export default function AboutMe() {
                 >
                   LinkedIn
                 </a>{" "}
-                and I'd love to work for you.
+                and hopefully I'd love to work with you.
               </p>
             </div>
             {/* Social Links */}
@@ -132,7 +132,7 @@ export default function AboutMe() {
                 className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
                 className="h-10 w-10 mx-4 my-4"
               />
               <img
@@ -192,6 +192,18 @@ export default function AboutMe() {
                 className="h-10 w-10 mx-4 my-4"
               />
               <img
+                src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://wandb.ai/logo.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png"
+                className="h-10 w-10 mx-4 my-4"
+              />
+              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-10 w-10 mx-4 my-4"
               />
@@ -208,7 +220,7 @@ export default function AboutMe() {
                 className="h-10 w-10 mx-4 my-4"
               />
               <img
-                src="https://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png"
+                src="https://www.clipartmax.com/png/full/307-3077761_other-technologies-postgresql-logo-png.png"
                 className="h-10 w-10 mx-4 my-4"
               />
             </div>
