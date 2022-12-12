@@ -10,43 +10,19 @@ const userData = {
     {
       title: "Allure AI",
       link: "https://allure.id",
-      imgUrl: "/allure.jpg",
+      imgUrl: "/allure-crop-resize.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Coffee Classifier",
+      link: "https://coffee-classifier.onrender.com",
+      imgUrl: "/kopi.jpg",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "Quantum Random Number Generator",
+      link: "https://thr-quantum-rng.onrender.com/",
+      imgUrl: "/pq-resized.png",
     },
-    {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
-    },
+    
   ],
   about: {
     title:

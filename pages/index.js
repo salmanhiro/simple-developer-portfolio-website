@@ -15,6 +15,7 @@ export default function Home({ repositories }) {
       title="Salman Al Farisi - Co-founder, Software Engineer, Data Scientist, and Open Source Contributor"
       description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
     >
+      
       <Hero />
       <FavouriteProjects />
       <LatestCode repositories={repositories} />
