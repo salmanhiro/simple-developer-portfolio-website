@@ -105,7 +105,7 @@ const userData = {
     {
       title: "Software Engineer Intern",
       company: "Chatbiz.id (now merged to Orderdulu)",
-      year: "2019",
+      year: "June 2018 - August 2018",
       companyLink: "https://orderdulu.com/",
       desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
     },
