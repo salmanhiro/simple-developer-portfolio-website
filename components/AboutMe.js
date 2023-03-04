@@ -45,11 +45,9 @@ export default function AboutMe() {
               </p>
             </div>
             <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Opportunities
-              </h1>
+
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For partnership, IT consultancy and opportunities, 
+                For questions, 
                 check my{" "}
                 <a
                   href={userData.linkedin}
@@ -58,7 +56,7 @@ export default function AboutMe() {
                 >
                   LinkedIn
                 </a>{" "}
-                and hopefully I'd love to work with you.
+                and hopefully I'd love to help you.
               </p>
             </div>
             {/* Social Links */}
@@ -120,7 +118,7 @@ export default function AboutMe() {
               Skill and Domain Expertise
             </h1>
             <div className="flex flex-row flex-wrap mt-8 mb-8 text-lg text-gray-500 mt-4 dark:text-gray-300">
-            Computer Vision, Machine Learning, Deep Learning, Natural Language Processing, Data Science, Project Management, Data Engineering, Data Security, DevOps, API, Backend Software Development, Augmented Reality,
+            Cryptography, Computer Vision, Machine Learning, Deep Learning, Natural Language Processing, Project Management, Data Engineering, Data Security, DevOps, API, Backend Software Development, Augmented Reality,
             Research, Statistics, Mathematical Modelling, Mathematical Simulation and Computation. 
             </div>
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">

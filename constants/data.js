@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "salmanhiro",
   name: "Salman Al Farisi",
-  designation: "Chief of Data at Allure AI",
+  designation: "Security Software Engineer at MicroSec",
   avatarUrl: "/avatar.png",
   email: "salmanhiro10@gmail.com",
   linkedin: "https://www.linkedin.com/in/salman-farisi/",
@@ -26,20 +26,27 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a technical Co-founder and Chief Data Officer with Expertise in AI and Machine Learning Software Development and MLOps",
+      "I'm a Security Software Engineer with a passion for DevOps, Cryptography, and Machine Learning.",
     description: [
-      "As a Chief Data Officer with expertise in machine learning software development and MLOps, I have spent my career driving innovation in the field of data science. I am passionate about open source development and strive to continuously improve and contribute to the open source community.",
-      "In my current role at Allure AI, I lead a team of data scientists and machine learning engineers to develop and deploy machine learning models that drive business value. I also oversee the implementation of MLOps best practices to ensure the efficient and effective deployment of our models.",
-      "My goal is to continue pushing the boundaries of what is possible with data and machine learning, and to help the organization to achieve its business goals through the strategic use of data and technology."
+      "A strong mathematical-based cryptography background.",
+      "Previously a Chief Data Officer with expertise in machine learning software development and DevOps. I am passionate about open source development and strive to continuously improve and contribute to the open source community."
     ],
-    currentProject: "Allure AI",
-    currentProjectUrl: "https://allure.id/",
+    currentProject: "MicroSec",
+    currentProjectUrl: "https://www.usec.io/",
   },
   experience: [
+
+    {
+      title: "Security Software Engineer",
+      company: "MicroSec",
+      year: "February 2023 - Present",
+      companyLink: "https://www.usec.io/",
+      desc: "Developing public key infrastructure (PKI) and cryptographic software for the company.",
+    },
     {
       title: "Chief of Data",
       company: "Allure AI",
-      year: "June 2021 - Present",
+      year: "June 2021 - February 2023",
       companyLink: "https://allure.id",
       desc: "Raising the company from winning a hackathon, we are now leading beauty-tech enabler for beauty brands in Indonesia. Led the data science team to develop and deploy machine learning models that drive business value. Oversaw the implementation of MLOps best practices to ensure the efficient and effective deployment of our models.",
     },

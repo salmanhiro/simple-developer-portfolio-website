@@ -12,7 +12,7 @@ export default function Home({ repositories }) {
     
 
     <ContainerBlock
-      title="Salman Al Farisi - Co-founder, Software Engineer, Data Scientist, and Open Source Contributor"
+      title="Salman Al Farisi - Software Engineer"
       description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
     >
       
