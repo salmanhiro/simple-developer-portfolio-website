@@ -26,10 +26,10 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a Security Software Engineer with a passion for DevOps, Cryptography, and Machine Learning.",
+      "A Security Software Engineer with a passion for DevOps, Algorithm, Cryptography, and Machine Learning",
     description: [
-      "A strong mathematical-based cryptography background.",
-      "Previously a Chief Data Officer with expertise in machine learning software development and DevOps. I am passionate about open source development and strive to continuously improve and contribute to the open source community."
+      "Strong mathematical background with a Bachelor's degree in Astronomy and Astrophysics.",
+      "5 years experience in software engineering, data science, and machine learning.",
     ],
     currentProject: "MicroSec",
     currentProjectUrl: "https://www.usec.io/",
@@ -41,7 +41,7 @@ const userData = {
       company: "MicroSec",
       year: "February 2023 - Present",
       companyLink: "https://www.usec.io/",
-      desc: "Developing public key infrastructure (PKI) and cryptographic software for the company.",
+      desc: "Developing public key infrastructure (PKI) and cryptography software.",
     },
     {
       title: "Chief of Data",

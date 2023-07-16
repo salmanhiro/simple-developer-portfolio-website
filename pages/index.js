@@ -9,16 +9,11 @@ import userData from "@constants/data";
 
 export default function Home({ repositories }) {
   return (
-    
-
     <ContainerBlock
       title="Salman Al Farisi - Software Engineer"
       description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
     >
-      
       <Hero />
-
-      <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
 }
