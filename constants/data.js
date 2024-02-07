@@ -60,7 +60,7 @@ const userData = {
     {
       title: "Artificial Intelligence Engineer",
       company: "Zapps Indonesia",
-      year: "October 2020 - February 2021",
+      year: "July 2020 - February 2021",
       companyLink: "https://algochurn.com",
       desc: "Develop and implement algorithms and models for traffic detection and face recognition. Collaborate with a team of engineers and data scientists to refine the algorithms and models.",
     },
