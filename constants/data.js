@@ -26,10 +26,10 @@ const userData = {
   ],
   about: {
     title:
-      "A Security Software Engineer with a passion for DevOps, Algorithm, Cryptography, and Machine Learning",
+      "Data Scientist and Machine Learning Engineer with a passion in science and philosophy.",
     description: [
       "Strong mathematical background with a Bachelor's degree in Astronomy and Astrophysics.",
-      "5 years experience in software engineering, data science, and machine learning.",
+      "4+ years experience in software engineering, data science, and machine learning.",
     ],
     currentProject: "MicroSec",
     currentProjectUrl: "https://www.usec.io/",
@@ -37,9 +37,16 @@ const userData = {
   experience: [
 
     {
+      title: "Machine Learning Engineer Lead",
+      company: "Ajari Technologies",
+      year: "Expected from April 2024",
+      companyLink: "https://ajari.ai/",
+      desc: "Building machine learning software for education, training, and research purposes.",
+    },
+    {
       title: "Security Software Engineer",
       company: "MicroSec",
-      year: "February 2023 - Present",
+      year: "February 2023 - April 2024",
       companyLink: "https://www.usec.io/",
       desc: "Developing public key infrastructure (PKI) and cryptography software.",
     },
@@ -48,7 +55,7 @@ const userData = {
       company: "Allure AI",
       year: "June 2021 - February 2023",
       companyLink: "https://allure.id",
-      desc: "Raising the company from winning a hackathon, we are now leading beauty-tech enabler for beauty brands in Indonesia. Led the data science team to develop and deploy machine learning models that drive business value. Oversaw the implementation of MLOps best practices to ensure the efficient and effective deployment of our models.",
+      desc: "Raising the company from winning a hackathon, now leading beauty-tech enabler for brands in Indonesia. Led the data science team to develop and deploy machine learning models.",
     },
     {
       title: "Artificial Intelligence Engineer Intern",
@@ -58,7 +65,7 @@ const userData = {
       desc: "Delivered table detection model in Kontext Dynamic intelligent data capture and banking application. Researched object detection, keypoint, and segmentation as well as collaborating with engineering team.",
     },
     {
-      title: "Artificial Intelligence Engineer",
+      title: "Artificial Intelligence Engineer/Data Scientist",
       company: "Zapps Indonesia",
       year: "July 2020 - February 2021",
       companyLink: "https://algochurn.com",
@@ -67,14 +74,14 @@ const userData = {
     {
       title: "Research Assistant (Galactic Astrophysics and Machine Learning)",
       company: "Department of Astronomy, Bandung Insitute of Technology",
-      year: "January 2020 - July 2020",
+      year: "January 2020 - December 2020",
       companyLink: "https://lapangbola.com/",
       desc: "As a Research Assistant in Galactic Astrophysics, responsible for experimenting machine learning techniques to study the spectral properties of galaxies. This involve working with large datasets of astronomical observations, and using algorithms and models to extract and analyze relevant information. Under the supervision from Dr. M. Ikbal Arifyanto.",
     },
     {
       title: "Core Infrastructure Team, Introduction to Computing Course",
       company: "ComLabs, Bandung Insitute of Technology",
-      year: "January 2020 - July 2020",
+      year: "January 2020 - December 2020",
       companyLink: "https://lapangbola.com/",
       desc: "Maintaining and managing the technical infrastructure. Tasks such as setting up and configuring servers, networking equipment, and other hardware and software systems. ",
     },
@@ -93,10 +100,7 @@ const userData = {
       desc: "Designing and implementing a data pipeline for a statistics dashboard. Applying machine learning techniques for future prediction. ",
     },
   ],
-  resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    twitter: "https://twitter.com/Resnet501",
     linkedin: "https://www.linkedin.com/in/salman-farisi/",
     github: "https://github.com/salmanhiro",
   },

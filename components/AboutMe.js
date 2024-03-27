@@ -105,11 +105,13 @@ export default function AboutMe() {
               </p>
             ))}
             <h1 className="text-2xl rounded-md px-2 py-1 inline-block font-bold text-gray-500 mt-4 dark:text-gray-300">
-              Skill and Domain Expertise
+              Skills and Domain Expertise
             </h1>
             <div className="flex flex-row flex-wrap mt-8 mb-8 text-lg text-gray-500 mt-4 dark:text-gray-300">
-            Cryptography, Computer Vision, Machine Learning, Deep Learning, Natural Language Processing, Project Management, Data Engineering, DevOps, Backend Software Development,
-            Research. 
+            • Machine Learning Product Development <br/>
+            • Data Infrastructure <br/>
+            • Data Science <br/>
+            • MLOps <br/>
             </div>              
             
           </div>

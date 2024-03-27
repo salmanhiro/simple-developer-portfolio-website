@@ -22,7 +22,7 @@ export default function Footer() {
                   Manu Arora
                 </a>
               </div>
-              <div> Assisted by Github Copilot and OpenAI ChatGPT</div>
+              <div> Assisted by Github Copilot and OpenAI ChatGPT because I'm mid at CSS</div>
             </div>
           </div>
           <div className="space-x-4 flex flex-row items-center">
